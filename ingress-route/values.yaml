@@ -10,6 +10,4 @@ entryPoints:
   - web
   - websecure
 
-publicHost: your.domain.here
-services: []
-middlewares: []
+routes: []

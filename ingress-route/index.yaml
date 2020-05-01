@@ -3,9 +3,9 @@ entries:
   ingress-route:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-01T23:14:24.011263+02:00"
+    created: "2020-05-01T23:18:48.395987+02:00"
     description: A Helm chart for Kubernetes
-    digest: a284c147922b71a919383786ca1edac85d84a2f004c04fd2b3d14c7b2913f698
+    digest: 9e973de3895735e0d0b621df74189e28ac00bd79bd36b45a7009cead9c070bf0
     name: ingress-route
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-01T23:14:24.010932+02:00"
+    created: "2020-05-01T23:18:48.39557+02:00"
     description: A Helm chart for Kubernetes
     digest: b916c8dd6bfc8b81cedb11e99995c8577ce7a54c0c63393a4ae2cb5c84bc6074
     name: ingress-route
@@ -21,4 +21,4 @@ entries:
     urls:
     - ingress-route-1.0.0.tgz
     version: 1.0.0
-generated: "2020-05-01T23:14:24.010505+02:00"
+generated: "2020-05-01T23:18:48.394566+02:00"

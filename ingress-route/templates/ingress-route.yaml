@@ -23,4 +23,9 @@ spec:
     {{- with .Values.routes }}
     {{- toYaml . | nindent 4 }}
     {{- end }}
+  tls:
+    {{- with .Values.tls }}
+    {{- toYaml . | nindent 4 }}
+    {{- end }}
+    
   

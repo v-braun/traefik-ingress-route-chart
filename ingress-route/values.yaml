@@ -11,3 +11,6 @@ entryPoints:
   - websecure
 
 routes: []
+
+tls:
+  certResolver: default

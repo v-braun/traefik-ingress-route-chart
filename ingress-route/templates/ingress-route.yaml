@@ -23,8 +23,9 @@ spec:
   - match: Host(`{{ .Values.publicHost }}`)
     kind: Rule
     services:
-    - name: api@internal
-      kind: TraefikService
+      {{- with .Values.services }}
+      {{- toYaml . | nindent 4 }}
+      {{- end }}
     middlewares:
       {{- with .Values.middlewares }}
       {{- toYaml . | nindent 4 }}

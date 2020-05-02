@@ -15,17 +15,8 @@ metadata:
     {{- toYaml . | nindent 4 }}
     {{- end }}
 spec:
-  entryPoints:
-    {{- range $entryPoint := .Values.entryPoints }}
-    - {{$entryPoint}}
-    {{- end }}  
-  routes:
-    {{- with .Values.routes }}
-    {{- toYaml . | nindent 4 }}
-    {{- end }}
-  tls:
-    {{- with .Values.tls }}
-    {{- toYaml . | nindent 4 }}
-    {{- end }}
+  {{- with .Values.spec }}
+  {{- toYaml . | nindent 4 }}
+  {{- end }}
     
   
